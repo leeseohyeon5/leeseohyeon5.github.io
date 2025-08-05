@@ -1,0 +1,36 @@
+ /* bxslider */
+.bx-prev, .bx-next{
+    display:none !important;
+} 
+.bx-wrapper {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+.bx-pager{
+    display:none;
+}
+.bx-wrapper .bx-prev.disabled,
+.bx-wrapper .bx-next.disabled{
+    opacity:0.3;
+}
+@media screen and (min-width:1200px) {
+    .bx-prev {
+        display:block !important;
+        position: absolute !important;
+        left:-100px !important;
+        text-indent: 0 !important; 
+        font-size: 50px;
+        color: #aaa;
+        background: none !important; 
+    }
+    .bx-next {
+        display:block !important;
+        position: absolute !important;
+        right: -100px !important;
+        text-indent: 0 !important; 
+        font-size: 50px;
+        color: #aaa;
+        background: none !important; 
+    }
+}
