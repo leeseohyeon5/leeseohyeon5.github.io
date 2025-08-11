@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUPRA</title>
+    <link rel="icon" href="./images/favi.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index2.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <script src="./script/jquery-3.7.1.min.js"></script>
+    <script src="./script/swiper-bundle.min.js"></script>
+    <script src="./script/index.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header id="header">
+        <div class="head_in">
+          <h1 id="logo">
+            <a href="./index.html">
+              <img src="./images/logo_pc.7fa4c034.svg" alt="logo" />
+            </a>
+          </h1>
+          <div class="searchWrap mobile">
+            <form action="#" method="get">
+              <button class="mobile" type="button">검색</button>
+              <div class="searchOn">
+                <a href="#" class="close mobile">닫기</a>
+                <input type="search" placeholder="Search">
+                <button type="submit">검색하기</button>
+              </div>
+            </form>
+          </div> 
+          <button type="button" class="navBtn mobile">
+            <span>메뉴</span>
+          </button>
+          <nav id="nav">
+            <strong class="mobile">
+              <span>
+                <a href="#">MENU</a>
+              </span>
+              <a href="#" class="close">닫기</a>
+            </strong>
+            <ul>
+              <li><a href="#">Outer</a></li>
+              <li><a href="#">Tops</a></li>
+              <li><a href="#">Bottoms</a></li>
+              <li>
+                <a href="#">About</a>
+                <ul class="sub mobile">
+                  <li><a href="#">SUPRA</a></li>
+                  <li><a href="#">Founded in 2006</a></li>
+                </ul>
+              </li>
+              <li class="pc"><a href="#">Search</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section id="section">
+        <h2 class="none">본문영역</h2>
+        <div class="slide swiper mySwiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide slide1">
+              <a href="#"></a>
+            </li>
+            <li class="swiper-slide slide2">
+              <a href="#"></a>
+            </li>
+            <li class="swiper-slide slide3">
+              <a href="#"></a>
+            </li>
+          </ul>
+          <!-- <div class="rolling">
+            <ul>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+            </ul>
+          </div>
+        </div> -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <script>
+          var swiper = new Swiper(".slide", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
+            loop: true,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+          setTimeout(() => {
+              swiper.update();
+              swiper.autoplay.start();
+          }, 10);
+          window.addEventListener('resize', () => {
+            setTimeout(() => {
+              swiper.update();
+              swiper.autoplay.start();
+            }, 10);
+          });
+        </script>
+        <div class="content1">
+          <div class="contIn">
+            <ul>
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt>MD PICK</dt>
+                    <dd>
+                      SNEAKERS
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt>MD PICK</dt>
+                    <dd>
+                      WMN'S T-SHIRT
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <dl>
+                    <dt>MD PICK</dt>
+                    <dd>
+                      BALLCAP 
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="content2">
+          <a href="#">
+            <div class="imgB">
+              <!-- 추가 -->
+            </div>
+            <dl>
+              <dt>Collection</dzt>
+              <dd>
+                <span>SUMMER MODE with</span> CHAE YOUNG
+              </dd>
+            </dl>
+          </a>
+        </div>
+        <div class="content3">
+          <div class="cont3In">
+            <div class="cont3">
+              <ul>
+                <li>
+                  <!--1-->
+                  <a href="#">
+                    <dl>
+                      <dt>39,000</dt>
+                      <dd>여성 스프레이 그래픽 포인트 크롭티셔츠</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <!--2-->
+                  <a href="#">
+                    <dl>
+                      <dt>39,000</dt>
+                      <dd>여성 크라운하트 티셔츠</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <!--3-->
+                  <a href="#">
+                    <dl>
+                      <dt>39,000</dt>
+                      <dd>셔틀 그래픽 반팔 티셔츠</dd>
+                    </dl>
+                  </a>
+                </li>   
+                <li>
+                  <!--4-->
+                  <a href="#">
+                    <dl>
+                      <dt>39,000</dt>
+                      <dd>등판 그래픽 반팔 티셔츠</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <!--5-->
+                  <a href="#">
+                    <dl>
+                      <dt>19,000</dt>
+                      <dd>시그니처 워싱 볼캡</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <!--6-->
+                  <a href="#">
+                    <dl>
+                      <dt>29,000</dt>
+                      <dd>수프라 하트로고 트러커</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <!--7-->
+                  <a href="#">
+                    <dl>
+                      <dt>59,000</dt>
+                      <dd>베이더 아웃도어 (화이트)</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <!--8 -->
+                  <a href="#">
+                    <dl>
+                      <dt>29,000</dt>
+                      <dd>
+                        여성 서클 크라운 그래픽 반팔 티셔츠
+                      </dd>
+                    </dl>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="c3_more">
+              <a href="#">
+                <span>Load More</span>
+                <img src="./images/arrow-right-solid.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="footIn">
+          <h2 class="none">바닥글</h2>
+          <div class="sns">
+            <ul>
+              <li>
+                <a href="#">
+                  <span></span>
+                  <span>INSTAGRAM</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span></span>
+                  <span>FACEBOOK</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span></span>
+                  <span>TWITER</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span></span>
+                  <span>YOUTUBE</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span></span>
+                  <span>NEWSLETTER</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copy">
+            <address>
+              Presented by SUPRA Official Tourdod in 2005 Los Angeles US <br />
+              Copyright ⓒ SUPRA Al nghhi reserved
+            </address>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
