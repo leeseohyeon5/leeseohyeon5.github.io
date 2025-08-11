@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="icon" href="../images/logo.png" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top_banner">
+            <a href="#">가맹점 개설 문의</a>
+        </div>
+        <header id="header">
+            <div class="headIn">
+                <h1 id="logo">
+                    <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+                </h1>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#">brand</a>
+                            <ul class="sub">
+                                <li><a href="#">브랜드 소개</a></li>
+                                <li><a href="#">공차의 약속</a></li>
+                                <li><a href="#">아이덴티티</a></li>
+                                <li><a href="#">세계속의 공차</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Menu</a>
+                            <ul class="sub">
+                                <li><a href="#">주문방법</a></li>
+                                <li><a href="#">신메뉴</a></li>
+                                <li><a href="#">음료</a></li>
+                                <li><a href="#">디저트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Store</a>
+                            <ul class="sub">
+                                <li><a href="#">매장찾기</a></li>
+                                <li><a href="#">가맹문의</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Membership</a>
+                            <ul class="sub">
+                                <li><a href="#">공차 멤버쉽</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">event</a>
+                            <ul class="sub">
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">공차 소식</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="util_icons">
+                    <ul>
+                        <li><a href="#"><img src="../images/ico_search.png" alt="s"></a></li>
+                        <li><a target="_blank" href="/sub/login.html"><img src="../images/ico_member.png" alt="m"></a></li>
+                        <li><a href="#"><img src="../images/ico_cart.png" alt="c"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section id="login">
+            <h4>로그인</h4>
+            <form>
+                <input type="email" id="login_id" placeholder="아이디(이메일)" autocomplete="off" required>
+                <input type="password" id="login_pw" placeholder="비밀번호" required maxlength="12" minlength="8">
+                <div class="cb">
+                    <input type="checkbox" id="login_ck">
+                    <label for="login_ck"><em></em><span>로그인 상태 유지</span></label>
+                </div>
+                <div class="login_Wrap">
+                    <a class="new_user" href="#">회원가입</a>
+                    <a class="forpw" href="#">비밀번호찾기</a>
+                </div>
+                <input type="submit" value="로그인" id="login_btn">
+            </form>
+        </section>
+        <footer id="footer">
+            <h2 class="none">바닥</h2>
+            <div class="footIn">
+                <div class="flogo">
+                    <a href="../index.html"><img src="../images/ft_logo.png" alt="flogo"></a>
+                </div>
+                <div class="finfo">
+                    <div>
+                        <span><a href="#">회사소개</a></span>
+                        <span><a href="#">제휴/제안</a></span>
+                        <span><a href="#">고객센터</a></span>
+                        <span><a href="#">개인정보처리방침</a></span>
+                        <span><a href="#">이메일무단수집거부</a></span>
+                        <span><a href="#">윤리규범 실천지침</a></span>
+                        <span>고객센터 02-779-7758</span>
+                        <span>가맹문의 02-3276-9581</span>
+                    </div>
+                    <div>
+                        <span>운영시간 : 월요일~목요일 ( 오전 9시 ~ 오후 6시), 금요일 (오전 9시 ~ 오후 1시)</span>
+                        <span>점심시간 : 낮 12시~오후 1시 / 주말 및 공휴일 휴무</span>
+                    </div>
+                    <div>
+                        <span>서울 종로구 종로33길 15, 8층</span>
+                        <span>(주)공차코리아 대표이사 고희경</span>
+                        <span>사업자등록번호 214-88-84534</span>
+                        <span>통신판매번호: 2020-서울종로-0966</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+#login{
+    height:1195px;
+    text-align:center;
+    padding-top:258px;
+}
+#login h4{
+    color:#c30e2e;
+    font-size:60px;
+    margin-bottom:125px;
+}
+#login form{
+    display:inline-block;
+}
+#login input[id=login_id],
+#login input[id=login_pw]{
+    outline:none;
+    background:transparent;
+    border:1px solid #c30e2e;
+    width:825px;
+    height:115px;
+    font-size:40px;
+    border-radius:50px;
+    display:block;
+    margin:0 auto;
+    padding:0 20px;
+    color:#c30e2e;
+}
+#login input[id=login_id]::placeholder,
+#login input[id=login_pw]::placeholder{
+    color:rgba(195, 14, 47, 0.5);
+}
+#login input[id=login_id]{
+    margin-bottom:35px;
+}
+#login form .cb{
+    margin-top:37px;
+    float:left;
+}
+#login input[id=login_ck]{
+    display:none;
+}
+#login label[for=login_ck] em{
+    height:20px;
+    display:inline-block;
+    width:20px;
+    margin-right:5px;
+    background:url(../images/icon-checkbox.png)no-repeat;
+    background-position:left;
+}
+#login input[id=login_ck]:checked+label[for=login_ck] em{
+    background-position:right;
+}
+#login label[for=login_ck]{
+    display:block;
+    margin-top:4px;
+}
+#login label[for=login_ck] span{
+    font-size:20px;
+    color:#c30e2e;
+    vertical-align: top;
+}
+#login form .login_Wrap{
+    display:flex;
+    margin-top:37px;
+    font-size:20px;
+    align-items: center;
+    float:right;
+}
+#login form .login_Wrap a{
+    color:#c30e2e;
+}
+#login form .login_Wrap .new_user{
+    margin-right:35px;
+}
+#login input[type=submit]{
+    display:block;
+    margin-top:106px;
+    border:0;
+    background: #c30e2e;
+    color:#fff;
+    width:100%;
+    font-size:36px;
+    border-radius: 50px;
+    height:77px;
+    cursor:pointer;
+}
