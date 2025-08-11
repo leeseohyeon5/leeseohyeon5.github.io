@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>피자헛</title>
+    <link rel="icon" href="./img/favi.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html"></a></h1>
+        <ul id="gnb">
+            <li><a href="#"><i class="fa-solid fa-utensils"></i>메뉴</a></li>
+            <li><a href="#"><i class="fa-solid fa-gift"></i>핫딜&이벤트</a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>단체주문</a></li>
+            <li><a href="#"><i class="fa-solid fa-arrow-pointer"></i>매장찾기</a></li>
+        </ul>
+        <div class="spot">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+    </header>
+    <div class="topBanner">
+        <a href="#">피자헛 창업안내 및 문의</a>
+    </div>
+    <section>
+        <article>
+            <div class="slide swiper mySwiper">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img src="./img/s1.png" alt="1"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="./img/s2.png" alt="2"></a></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="./img/s3.png" alt="3"></a></a></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </article>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                    effect: "cube",
+                    grabCursor: true,
+                    cubeEffect: {
+                    shadow: false,
+                    slideShadows: true,
+                    shadowOffset: 20,
+                    shadowScale: 0.94,
+                },
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                loop:true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true
+                },
+            });
+            setTimeout(() => {
+              swiper.update();
+              swiper.autoplay.start();
+            }, 10);
+            window.addEventListener('resize', () => {
+                setTimeout(() => {
+                swiper.update();
+                swiper.autoplay.start();
+                }, 10);
+            });
+        </script>
+        <article>
+            <div class="txt">
+                <p>
+					<strong>피자헛 이야기</strong><br />
+					<em>한국 피자의 대표 브랜드 PIZZA HUT!</em>
+				</p>
+            </div>
+        </article>
+        <article>
+            <div class="txt">
+                <i class="fa-solid fa-pizza-slice"></i>
+                <p><strong>지금 주문하기</strong></p>
+            </div>
+        </article>
+        <article>
+            <div class="bg bg2"></div>
+        </article>
+        <article>
+            <div class="bg bg3"></div>
+        </article>
+        <article>
+            <div class="txt">
+                <i class="fa-solid fa-pizza-slice"></i>
+                <p>
+					<strong>지금 로그인 하시면 1만원 할인에<br>추가혜택을 드려요!</strong><br />
+					<em>회원이면 누구나! 쿠폰과 최대 1만원 할인</em>
+				</p>
+            </div>
+        </article>
+        <article>
+            <div class="bg bg4"></div>
+        </article>
+        <article>
+            <div class="txt">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>
+                    <strong>BEST MENU</strong>
+                </p>
+            </div>
+        </article>
+        <article>
+            <div class="bg bg5"></div>
+        </article>
+        <article>
+            <div class="bg bg6">
+                <span>HOT한 여름엔 멕시칸 풍미<p>올라! 타코</p></span>
+            </div>
+        </article>
+        <article>
+            <div class="txt">
+                <i class="fa-solid fa-clipboard-check"></i>
+				<strong>NOTICE</strong>
+            </div>
+        </article>
+        <article>
+            <div class="bg bg7"></div>
+        </article>
+        <article>
+            <div class="bg"></div>
+        </article>
+    </section>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">창업안내</a></li>
+            </ul>
+            <div>
+                대표번호 1588-5588(운영시간 10:30 ~ 22:00) 서울시 영등포구 국회대로 74길 4, 9~11층
+            </div>  
+            <div>
+                사업자등록번호 120-81-63948통신판매업신고번호 제2018-서울영등포-1220호
+            </div>
+            <div>
+                한국피자헛유한회사 대표이사 : 조윤상개인정보 보호책임자 : 손정완
+            </div>
+            <div class="copy">
+                Copyright © BY PIZZA HUT KOREA LTD. ALL RIGHT RESERVED
+            </div>
+        </div>
+        <div class="flogo">
+            <a href="./index.html"><img src="./img/logo2.png" alt="flogo"></a>
+        </div>
+    </footer>
+</body>
+</html>
