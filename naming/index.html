@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMING</title>
+    <link rel="icon" href="./images/icon_.png" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+            <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+        <header id="header" class="clearfix">
+            <h1 id="logo">
+                <a href="#"><img src="./images/logo.png" alt="logo"></a>
+            </h1>            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">EVENT</a></li>
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">BEST</a></li>
+                    <li><a href="#">COMMUNITY</a></li>
+                </ul>
+            </nav>
+            <!-- menuToggleBtn -->
+            <span class="mtB">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </header>
+        <div class="main swiper slideWrap">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide slide1">
+                    <a href="#"> 
+                        <img src="./images/s1.jpg" alt="1">
+                        <div class="txtB">
+                            <p>부드럽게 스며드는</p>
+                            <p>SOFT CREAM BLUSH</p>
+                            <p>자세히보기</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide slide2">
+                    <a href="#">
+                        <img src="./images/s2.jpg" alt="2">
+                        <div class="txtB">
+                            <p>물들인듯 생기가득</p>
+                            <p>FLUFFY POWDER BLUSH</p>
+                            <p>자세히보기</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide slide3">
+                    <a href="#">
+                        <img src="./images/s3.jpg" alt="3">
+                        <div class="txtB">
+                            <p>착붙밀착 윤기쿠션</p>
+                            <p>layered fit cushion</p>
+                            <p>자세히보기</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide slide4">
+                    <a href="#">
+                        <img src="./images/s4.jpg" alt="4">
+                        <div class="txtB">
+                            <p>고퀄리티 커버쿠션</p>
+                            <p>ZERO GRAVITY COVER FIT CUSHION</p>
+                            <p>자세히보기</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide slide5">
+                    <a href="#">
+                        <img src="./images/s5.jpg" alt="5">
+                        <div class="txtB">
+                            <p>부드럽게 밀착되는</p>
+                            <p>layered COVER foundation</p>
+                            <p>자세히보기</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <script>
+            var swiper = new Swiper(".slideWrap", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                loop: true, //
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+            setTimeout(() => {
+              swiper.update();
+              swiper.autoplay.start();
+            }, 10);
+            window.addEventListener('resize', () => {
+                setTimeout(() => {
+                swiper.update();
+                swiper.autoplay.start();
+                }, 10);
+            });
+        </script>
+        <section class="content">
+            <h2 class="none">본문1</h2>
+            <div class="display-section">
+                <div class="container">
+                    <h3 class="brand">Giving your beauty a name - NAMING.</h3>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <h2 class="none">본문2</h2>
+            <div class="container">
+                <ul class="menu-list">
+                    <li><a href="#"><img src="./images/menu1.jpg" alt="1"></a></li>
+                    <li><a href="#"><img src="./images/menu2.jpg" alt="2"></a></li>
+                    <li><a href="#"><img src="./images/menu3.jpg" alt="3"></a></li>
+                </ul>
+            </div>
+        </section>
+        <hr class="divi">
+        <section class="work-section clearfix">
+            <h3 class="sec-tit">BEST SELLER</h3>
+            <ul class="work-list">
+                <li>
+                    <a href="#">
+                        <div class="info">
+                            <h4>소프티 크림 블러쉬 키트</h4>
+                            <span>KRW 25,500</span>
+                        </div>
+                        <img src="./images/c1.jpg" alt="1">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="info">
+                            <h4>글로이 하트 립 틴트 듀오</h4>
+                            <span>KRW 27,200</span>
+                        </div>
+                        <img src="./images/c2.png" alt="2">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="info">
+                            <h4>플러피 파우더 블러쉬 키트</h4>
+                            <span>KRW 25,500</span>
+                        </div>
+                        <img src="./images/c3.jpg" alt="3">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="info">
+                            <h4>듀이 글래스 립 틴트 키트</h4>
+                            <span>KRW 27,200</span>
+                        </div>
+                        <img src="./images/c4.jpg" alt="4">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="info">
+                            <h4>블러리 하트 립 틴트</h4>
+                            <span>KRW 14,100</span>
+                        </div>
+                        <img src="./images/c5.jpg" alt="5">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="info">
+                            <h4>플러피 불륨 앤 쉐딩 듀오</h4>
+                            <span>KRW 21,600</span>
+                        </div>
+                        <img src="./images/c6.jpg" alt="6">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="info">
+                            <h4>시럽 멜팅 스틱 키트</h4>
+                            <span>KRW 32,300</span>
+                        </div>
+                        <img src="./images/c7.jpg" alt="7">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="info">
+                            <h4>제로 그래비티 커버 업 쿠션</h4>
+                            <span>KRW 22,400</span>
+                        </div>
+                        <img src="./images/c8.jpg" alt="8">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <hr class="m-divi">
+        <section class="blog-section">
+            <h2 class="none">본문4</h2>
+            <div class="container">
+                <h3 class="sec-tit">REVIEW</h3>
+                <ul class="blog-list">
+                    <li>
+                        <a href="#">
+                            <img src="./images/r1.jpeg" alt="1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/r2.jpeg" alt="2">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/r3.jpg" alt="3">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact-section">
+            <h2 class="none">본문5</h2>
+            <div class="container">
+                <iframe width="49%" height="289" src="https://www.youtube.com/embed/oi_7OkahS3s?si=DFexpZPuDMHrL7z6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="49%" height="289" src="https://www.youtube.com/embed/YDnogYUqBjw?si=ofboNNGpO5AG0gtJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <footer id="footer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.1879636100853!2d127.02640177629537!3d37.527066226389856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3902b4c9565%3A0x5bbc746ac5489a00!2z7Jis66as67iM7JiBIOyVleq1rOygleyXreygkA!5e0!3m2!1sko!2skr!4v1750559940963!5m2!1sko!2skr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="flogo">
+                <a href="#"><img src="./images/flogo.png" alt="flogo"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

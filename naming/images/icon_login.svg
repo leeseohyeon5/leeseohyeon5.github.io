@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="12.515mm" height="13.135mm" version="1.1" viewBox="0 0 35.476 37.232">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231815;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <path class="cls-1" d="M26.142,37.447H1.368c-.69,0-1.25-.56-1.25-1.25V1.25C.118.56.678,0,1.368,0h24.773c.69,0,1.25.56,1.25,1.25s-.56,1.25-1.25,1.25H2.618v32.447h23.523c.69,0,1.25.56,1.25,1.25s-.56,1.25-1.25,1.25Z"/>
+      <g>
+        <path class="cls-1" d="M34.226,19.973H11.853c-.69,0-1.25-.56-1.25-1.25s.56-1.25,1.25-1.25h22.373c.69,0,1.25.56,1.25,1.25s-.56,1.25-1.25,1.25Z"/>
+        <path class="cls-1" d="M18.308,27.54c-.352,0-.702-.148-.95-.437l-6.485-7.565c-.401-.469-.401-1.159,0-1.627l6.485-7.565c.45-.525,1.238-.585,1.763-.136.524.449.585,1.239.136,1.763l-5.788,6.752,5.788,6.752c.449.524.388,1.313-.136,1.763-.236.202-.525.301-.813.301Z"/>
+      </g>
+    </g>
+    <metadata>
+      <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+        <slices/>
+        <sliceSourceBounds x="3.24" y="0.81" width="35.36" height="37.45" bottomLeftOrigin="true"/>
+      </sfw>
+    </metadata>
+  </g>
+</svg>
